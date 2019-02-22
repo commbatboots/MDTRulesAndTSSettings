@@ -592,20 +592,6 @@
     </group>
     <group expand="true" name="Applications" description="" disable="false" continueOnError="true">
       <action />
-      <step type="BDD_InstallApplication" name="Install 90Meter Smartcard Manager" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
-        <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{211307a8-52da-427f-a2fd-3aceb4096231}</variable>
-          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
-        </defaultVarList>
-        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
-      </step>
-      <step type="BDD_InstallApplication" name="Install Tumbleweed DesktopValidator" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
-        <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{6b1a0f75-627b-4448-98f5-88fee1b61744}</variable>
-          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
-        </defaultVarList>
-        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
-      </step>
       <step type="BDD_InstallApplication" name="Install Microsoft Office 2016 Pro Plus" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="ApplicationGUID" property="ApplicationGUID">{05a2add8-de7e-4682-b2fd-7d70c3bc55c3}</variable>
@@ -623,13 +609,6 @@
       <step type="BDD_InstallApplication" name="Install Google Chrome Enterprise Edition" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="ApplicationGUID" property="ApplicationGUID">{7292d17f-3914-4a90-b41b-cb919fa7ff22}</variable>
-          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
-        </defaultVarList>
-        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
-      </step>
-      <step type="BDD_InstallApplication" name="Install VITEC IPTV Plugins" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
-        <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{cf5cfbfd-68de-4fc8-afac-1999d65eccef}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
