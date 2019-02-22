@@ -1,4 +1,4 @@
-# MDT Rule sAnd TaskSequence Settings
+# MDT Rules With TaskSequence Settings
 MDT deployment rules with Tasksequences for capturing and deployments
 
 ## Project: 
